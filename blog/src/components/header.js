@@ -10,6 +10,7 @@ const StyledHeader = styled.header`
   justify-content: space-between;
   background: ${props => props.theme.header.backgroundColor}
 `
+
 const StyledLink = styled(Link)`
   font-size: var(--font-sm);
   text-decoration: none;
